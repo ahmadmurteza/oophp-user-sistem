@@ -82,7 +82,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'forgot' ) {
             $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
             //Recipients
-            $mail->setFrom('ahmadmurtezaakbari@gmail.com', 'Usis');
+            $mail->setFrom('yourEmail@gmail.com', 'Usis');
             $mail->addAddress($email);     // Add a recipient
 
             // Content
